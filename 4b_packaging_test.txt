@@ -1,0 +1,13 @@
+theia@theiadocker-ndnduc:/home/project/final_project/oaqjp-final-project-emb-ai$ python3
+Python 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am so happy that I am doing this")
+{'anger': 0.0043079085, 'disgust': 0.00041127237, 'fear': 0.0037504788, 'joy': 0.9918804, 'sadness': 0.014091322, 'dominant_emotion': 'joy'}
+>>> emtion_detector("I hate working long hours")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'emtion_detector' is not defined. Did you mean: 'emotion_detector'?
+>>> emotion_detector("I hate working long hours")
+{'anger': 0.64949876, 'disgust': 0.03718168, 'fear': 0.05612277, 'joy': 0.00862553, 'sadness': 0.1955148, 'dominant_emotion': 'anger'}
+>>> 
