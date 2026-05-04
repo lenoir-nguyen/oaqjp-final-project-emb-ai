@@ -1,0 +1,25 @@
+theia@theiadocker-ndnduc:/home/project/final_project/oaqjp-final-project-emb-ai$ pylint server.py
+************* Module server
+server.py:40:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:34:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+server.py:34:7: C0121: Comparison 'dominant == None' should be 'dominant is None' (singleton-comparison)
+
+------------------------------------------------------------------
+Your code has been rated at 7.00/10 (previous run: 6.00/10, +1.00)
+
+theia@theiadocker-ndnduc:/home/project/final_project/oaqjp-final-project-emb-ai$ pylint server.py
+************* Module server
+server.py:37:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 7.00/10, +2.50)
+
+theia@theiadocker-ndnduc:/home/project/final_project/oaqjp-final-project-emb-ai$ pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)
+
+theia@theiadocker-ndnduc:/home/project/final_project/oaqjp-final-project-emb-ai$ 
