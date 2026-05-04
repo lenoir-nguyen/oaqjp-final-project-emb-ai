@@ -25,7 +25,10 @@ def sent_analyzer():
         f"The dominant emotion is {dominant}."
     )
 
-    return formatted_response
+    if dominant == None:
+        return "Invalid text! Please try again!."
+    else:
+        return formatted_response
 
 if __name__ == "__main__":
     app.run(debug=True)
